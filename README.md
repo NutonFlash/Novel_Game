@@ -1,12 +1,13 @@
 # 12 Labors Of Hercules
 ## Interactive game for the festival in Woosong University
 Important syntax:
+- **Character(params)** - creates and returns a Character object, which controls the look and feel of dialogue and narration. [More information here](https://www.renpy.org/doc/html/dialogue.html#defining-character-objects)
 - **Displaying Images**:
   - `image` - defines a new image
   - `show` - shows an image on a layer
   - `scene` - clears a layer, and optionally shows an image on that layer
   - `hide` - removes an image from a layer
-  - [more information here](https://www.renpy.org/doc/html/displaying_images.html)
+  - [More information here](https://www.renpy.org/doc/html/displaying_images.html)
 - **Transitions**:
   - *All statements below are used with `with` statement before*
   - `fade` - takes 0.5 seconds to fade to black, and then 0.5 seconds to fade to the new screen
