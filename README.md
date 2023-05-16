@@ -30,4 +30,15 @@ Important syntax:
   -  `pushright, pushleft, pushup, pushdown` - these use the new scene to slide the old scene out the named side
   -  `irisin` - use a rectangular iris to display the new screen, or hide the old screen
 - **Transforms**:
-  - Transforms can be applied to a displayable by giving the at clause to the scene and show (`show eileen happy` **at** `right`)
+  - *Transforms can be applied to a displayable by giving the at clause to the scene and show* (`show eileen happy` **at** `right`)
+  - `default` - can be redefined via `config.default_transform` to change the default placement of images shown with the show or scene statements
+  - `center` - centers horizontally, and aligns to the bottom of the screen
+  - `left` - aligns to the bottom-left corner of the screen
+  - `offscreenleft` - places the displayable off the left side of the screen, aligned to the bottom of the screen
+  - `offscreenright` - places the displayable off the left side of the screen, aligned to the bottom of the screen
+  - `reset` - resets the transform (places the displayable in the top-left corner of the screen)
+  - `right` - aligns to the bottom-right corner of the screen
+  - `top` - centers horizontally, and aligns to the top of the screen
+  - `topleft` - aligns to the top-left corner of the screen
+  - `topright` - aligns to the top-right corner of the screen
+  - `truecenter` - centers both horizontally and vertically
