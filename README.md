@@ -8,6 +8,7 @@ Important syntax:
   - `hide` - removes an image from a layer
   - [more information here](https://www.renpy.org/doc/html/displaying_images.html)
 - **Transitions**:
+  - *All statements below are used with `with` statement before*
   - `fade` - takes 0.5 seconds to fade to black, and then 0.5 seconds to fade to the new screen
   -  `dissolve` - takes 0.5 seconds to dissolve from the old to the new screen
   -  `pixellate` - pixellates the old scene for .5 seconds, and the new scene for another .5 seconds
