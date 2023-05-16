@@ -1,8 +1,20 @@
 # 12 Labors Of Hercules
 ## Interactive game for the festival in Woosong University
 Important syntax:
-- **label** - statement that allows the given name to be assigned to a program point, there are two kinds of labels: *global* and *local*
+- **label** - statement that allows the given name to be assigned to a program point; there are two kinds of labels: *global* and *local*. [More information here](https://www.renpy.org/doc/html/label.html#label-statement)
+- **jump** - statement is used to transfer control to the given label; unlike call, jump doesn't allow to return to where you've jumped from. [More information here](https://www.renpy.org/doc/html/label.html#jump-statement)
+- **call** - statement is used to transfer control to the given label, also pushes the next statement onto the call stack; allowing the return statement to return control to the statement following the call. [More information here](https://www.renpy.org/doc/html/label.html#call-statement)
 - **menu** - statement that makes it easy to present choices to the user. [More information here](https://www.renpy.org/doc/html/menus.html)
+- **return** - statement pops the top statement off of the call stack, and transfers control to it. [More information here](https://www.renpy.org/doc/html/label.html#return-statement)
+- **Special Labels**:
+  - `start` - by default, Ren'Py jumps to this label when the game starts
+  - `quit` - if it exists, this label is called in a new context when the user quits the game
+  - `after_load` - if it exists, this label is called when a game is loaded. It can be use to fix data when the game is updated
+  - `splashscreen` - if it exists, this label is called when the game is first run, before showing the main menu
+  - `before_main_menu` - if it exists, this label is called before the main menu. It is used in rare cases to set up the main menu, for example by starting a movie playing in the background
+  - `main_menu` - if it exists, this label is called instead of the main menu
+  - `after_warp` - if it is existed, this label is called after a warp but before the warped-to statement executes
+  - `hide_windows` - if it exists, this label is called when the player hides the windows with the right mouse button or the H key
 - **Character(params)** - creates and returns a Character object, which controls the look and feel of dialogue and narration. [More information here](https://www.renpy.org/doc/html/dialogue.html#defining-character-objects)
 - **Displaying Images**:
   - `image` - defines a new image
