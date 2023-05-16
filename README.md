@@ -1,6 +1,8 @@
 # 12 Labors Of Hercules
 ## Interactive game for the festival in Woosong University
 Important syntax:
+- **label** - statement that allows the given name to be assigned to a program point, there are two kinds of labels: *global* and *local*
+- **menu** - statement that makes it easy to present choices to the user. [More information here](https://www.renpy.org/doc/html/menus.html)
 - **Character(params)** - creates and returns a Character object, which controls the look and feel of dialogue and narration. [More information here](https://www.renpy.org/doc/html/dialogue.html#defining-character-objects)
 - **Displaying Images**:
   - `image` - defines a new image
