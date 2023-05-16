@@ -30,4 +30,4 @@ Important syntax:
   -  `pushright, pushleft, pushup, pushdown` - these use the new scene to slide the old scene out the named side
   -  `irisin` - use a rectangular iris to display the new screen, or hide the old screen
 - **Transforms**:
-  - Transforms can be applied to a displayable by giving the at clause to the scene and show `(show eileen happy **at right**)`
+  - Transforms can be applied to a displayable by giving the at clause to the scene and show (`show eileen happy` **at** `right`)
