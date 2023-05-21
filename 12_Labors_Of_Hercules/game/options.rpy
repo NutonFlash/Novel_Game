@@ -30,6 +30,11 @@ define config.version = "1.0"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+    This game was invented and developed by the Software&Entrepreneurship Club of Endicott College.
+
+    The main goal of the project is to introduce people to ancient Greek mythology through simple and interesting interaction with the game.
+
+    We have now successfully completed the second feat in "12 Labors of Hercules", and we have yet to develop eleven chapters. Looking with optimism at the prosperity of the project, our esteemed team sees a future in which the upcoming works will be carefully developed. In these subsequent chapters, we will tell you more about the heroic exploits and insurmountable difficulties faced by our mythical protagonist. With unwavering dedication, we strive to bring the remaining segments to life, creating an immersive experience that will captivate players and showcase the wonderful journey that lies ahead.
 """)
 
 
