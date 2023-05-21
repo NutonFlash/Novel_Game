@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/scene5.rpy", line 23: choice menuitem expects a non-empty block.
-    "Go to the forest in the southwest where the bandits led by Isidore":
-                                                                         ^
+File "game/scripts/scene7.rpy", line 38: expected statement.
+    deer hide
+         ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Sun May 21 22:19:13 2023
+Sun May 21 22:59:51 2023

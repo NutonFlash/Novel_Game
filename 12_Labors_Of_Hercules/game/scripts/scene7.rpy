@@ -33,4 +33,8 @@ label scene7:
 
     hercules 'I am closing in! Your fate is sealed, dear deer!'
 
-    'with a final burst of speed, it vanishes deeper into the forest, eluding Hercules'
+    deer '"with a final burst of speed, it vanishes deeper into the forest, eluding Hercules"'
+
+    hide deer
+
+    jump scene8
