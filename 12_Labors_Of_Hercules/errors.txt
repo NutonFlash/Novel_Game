@@ -2,11 +2,9 @@
 errors listed below, and try again.
 
 
-The label start is defined twice, at File "game/scene0.rpy", line 10:
-label start:
-and File "game/script.rpyc", line 11:
-
-
+File "game/scripts/scene5.rpy", line 23: choice menuitem expects a non-empty block.
+    "Go to the forest in the southwest where the bandits led by Isidore":
+                                                                         ^
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Sun May 21 00:25:05 2023
+Sun May 21 22:19:13 2023
