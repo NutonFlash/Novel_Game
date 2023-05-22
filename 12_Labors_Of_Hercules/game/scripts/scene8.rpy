@@ -28,4 +28,3 @@ label scene8:
     centaur_father 'Very well, Hercules. We shall grant you this chance. Stand with us here, share our meal, and prove your worthiness.'
 
     hercules 'Thank you, noble centaurs. I am honored by your trust. I shall partake in your feast with utmost respect.'
-
