@@ -1,13 +1,15 @@
-image bg hercules_house = 'images/scene4/Hercules_house.png'
+image bg hercules_house_outside = 'images/scene4/Hercules_house_outside.png'
+image bg hercules_house_inside_1 = 'images/scene4/Hercules_house_inside.png'
 
 label scene4:
 
-    scene bg hercules_house
-    with fade
+    scene bg hercules_house_outside with fade
 
     'Hercules returns to his peaceful abode, preparing to embark on the arduous journey to face the Hydra.'
 
     'As he enters his house, a sense of tranquility fills the air.'
+
+    scene bg hercules_house_inside_1 with fade
 
     show hercules at left
     with dissolve

@@ -4,6 +4,8 @@ label scene2:
 
     scene bg bazaar with fade
 
+    play sound 'marketplace.mp3' volume 0.2 loop
+
     'Hercules, filled with determination, enters the lively bazaar, seeking potential aid for his upcoming battle with the Hydra.'
     
     'Among the various merchants, he spots an arms dealer showcasing an impressive array of weapons.'

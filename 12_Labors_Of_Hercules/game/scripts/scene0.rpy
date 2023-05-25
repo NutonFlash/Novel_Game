@@ -1,13 +1,16 @@
 image bg palace = 'images/scene0/palace_of_king_Eurystheus.png'
-image bg greece = 'images/scene0/ancient_Greece.png'
+image bg greece_1 = 'images/scene0/ancient_Greece_1.png'
+image bg greece_2 = 'images/scene0/ancient_Greece_2.png'
 
 label scene0:
 
-    scene bg greece with fade
+    scene bg greece_2 with fade
 
     'As the sun sets on ancient Greece, the stories of heroes and legends continue to inspire generations.'
     
     'And one hero, in particular, stands out from the rest - the mighty Hercules.'
+
+    scene bg greece_1 with fade
 
     'He was born to the god Zeus and a mortal woman, Alcmene, and possessed incredible strength and courage. However, his life was not always easy.'
 

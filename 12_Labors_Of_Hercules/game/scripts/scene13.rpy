@@ -2,11 +2,8 @@ image bg damaged_banditcamp = 'images/scene13/damaged_banditcamp.png'
 
 label scene13:
 
-    " Hercules, having vanquished the bandits, faces Isidore in a final confrontation. Isidore, realizing the dire situation he is in, sees an opportunity to save his own life by providing information about the Hydra. The fate of the centaur girl and the knowledge of the Hydra's lair hang in the balance."
-
-    scene bg damaged_banditcamp
-    with fade
-
+    scene bg damaged_banditcamp with fade
+    
     show hercules at left
     show isidore at right
     with dissolve
@@ -15,9 +12,11 @@ label scene13:
 
     isidore 'Hercules, spare my life, and I will tell you what you seek. The Hydra dwells deep within the treacherous swamps, hidden amidst the tangled roots and murky waters.'
 
-    hercules "Speak, Isidore. What are the landmarks or indications that can guide me to the Hydra's lair?"
+    hercules 'Speak, Isidore. What are the landmarks or indications that can guide me to the Hydra\'s lair?'
 
-    isidore "Beyond the twisted willow trees, there lies a path known only to the swamp dwellers. Follow the eerie calls of the swamp creatures, for they lead to the Hydra's domain. Be cautious of the toxic mists that shroud the area, and the treacherous bog that threatens to swallow the unwary."
+    isidore 'Beyond the twisted willow trees, there lies a path known only to the swamp dwellers. Follow the eerie calls of the swamp creatures, for they lead to the Hydra\'s domain.'
+    
+    isidore 'Be cautious of the toxic mists that shroud the area, and the treacherous bog that threatens to swallow the unwary.'
 
     menu: 
 
@@ -29,13 +28,13 @@ label scene13:
 
             hercules 'Remember, Isidore, this act of mercy is your chance for a new beginning. Do not squander it.'
 
-            isidore "I won't forget this, Hercules. You won't see me again. Farewell."
+            isidore 'I won\'t forget this, Hercules. You won\'t see me again. Farewell.'
         
         'Kill Isidore':
 
-            hercules ' Isidore, your life hangs by a thread.'
+            hercules 'Isidore, your life hangs by a thread.'
 
-            isidore ' Please, Hercules, spare me. I have told you what you seek. Let me go, and I will disappear from these lands forever.'
+            isidore 'Please, Hercules, spare me. I have told you what you seek. Let me go, and I will disappear from these lands forever.'
 
             hercules 'Your fate has been sealed by your actions, Isidore. Your crimes end here.'
 
@@ -47,7 +46,7 @@ label scene13:
 
     'Her eyes wide with gratitude, she nods and runs off towards her waiting family, her heart filled with newfound hope.'
 
-    "hercules watches as the centaur girl disappears into the distance, his gaze turning towards the treacherous path that leads to the Hydra's lair"
+    'Hercules watches as the centaur girl disappears into the distance, his gaze turning towards the treacherous path that leads to the Hydra\'s lair'
 
     hercules 'The Hydra awaits, and with it, the completion of my labor. I will face this challenge and emerge victorious, for the sake of all who depend on me.'
 

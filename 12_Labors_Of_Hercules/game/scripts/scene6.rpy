@@ -1,19 +1,25 @@
-image bg village = 'images/scene6/village.png'
+image bg village_outside = 'images/scene6/village_outside.png'
+image bg village_inside = 'images/scene6/village_inside.png'
 
 label scene6:
 
-    scene bg village
-    with fade
+    scene bg village_outside with fade
+
+    play sound 'village_in_fire.mp3' volume 0.05 loop
 
     'Following Eurystheus directions, Hercules makes his way to the village of the hunters, a place once teeming with life and prosperity.'
 
     'However, the aftermath of a Hydra\'s rampage has left the village in a state of despair.'
 
-    show hercules at left
-    show hunter at right
-    with dissolve
+    stop sound fadeout 1.0
+    
+    scene bg village_inside with fade
+    
+    show hercules at left with dissolve
 
     hercules 'This must be the village Eurystheus mentioned. The Hydra\'s wrath has taken its toll. I must find someone who can shed light on the creature\'s whereabouts.'
+
+    show hunter at right with dissolve
 
     hunter 'Stranger, what brings you to our ravaged village? Have you come to witness the aftermath of the Hydra\'s fury?'
 

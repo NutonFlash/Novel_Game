@@ -12,14 +12,15 @@ label scene16:
 
     'The ground trembles as the Hydra emerges from the depths of its lair, its eyes filled with malice and hunger.'
 
-    show hydra at right
-    with dissolve
+    show hydra at right with vpunch
+
+    play sound 'Hydra.mp3' volume 0.3
 
     hydra 'Roar!'
 
     hercules 'You shall taste the wrath of Hercules!'
 
-    "The Hydra's heads snap and strike, venomous fangs bared, as Hercules skillfully dodges and parries its attacks."
+    'The Hydra\'s heads snap and strike, venomous fangs bared, as Hercules skillfully dodges and parries its attacks.'
 
     'Hercules brings down his club with incredible force, smashing several heads simultaneously. But to his astonishment, new heads sprout forth in their place.'
 
@@ -27,27 +28,29 @@ label scene16:
 
     hercules 'You may grow heads, but I shall not yield!'
 
-    show iolaus at right
+    show iolaus at left_for_200
     with dissolve
 
     iolaus 'Hercules, you need assistance! I shall aid you in this perilous endeavor!'
 
     hercules 'Together, we shall conquer this abomination. Prepare to strike, my friend!'
 
-    "Iolaus and Hercules join forces, their combined strength and strategy pushing back against the Hydra's relentless assault."
+    'Iolaus and Hercules join forces, their combined strength and strategy pushing back against the Hydra\'s relentless assault.'
 
-    hercules "Iolaus, set fire to the nearby grove! We shall cauterize the Hydra's wounds with firebrands!"
+    hercules 'Iolaus, set fire to the nearby grove! We shall cauterize the Hydra\'s wounds with firebrands!'
 
-    "Iolaus follows Hercules' command without hesitation, igniting the grove and wielding the flaming branches with precision."
+    'Iolaus follows Hercules\'s command without hesitation, igniting the grove and wielding the flaming branches with precision.'
 
     'The Hydra recoils in pain as its wounds are seared shut by the fiery onslaught, preventing new heads from regenerating.'
 
-    "Hercules seizes the opportunity, his sword gleaming in the dim light. He charges forward, focused on severing the Hydra's final head." 
+    'Hercules seizes the opportunity, his sword gleaming in the dim light. He charges forward, focused on severing the Hydra\'s final head.' 
     
-    "With a mighty swing, Hercules decapitates the immortal head, watching as it falls to the ground."
+    'With a mighty swing, Hercules decapitates the immortal head, watching as it falls to the ground.'
 
     hercules 'May you trouble the world no more, vile creature.'
 
-    "The Hydra's reign of terror has come to an end."
+    'The Hydra\'s reign of terror has come to an end.'
+
+    hide hydra
 
     'The End'

@@ -1,10 +1,10 @@
 label scene1:
+
+    show hercules at left
+    show eurystheus at right 
+    with dissolve
     
     'Hercules stands before Eurystheus, the king who has assigned him his next labor. The tension in the room is palpable as Eurystheus prepares to reveal the daunting task.'
-
-    show eurystheus at right
-    show hercules at left
-    with dissolve
 
     eurystheus 'Hercules, I have a labor befitting your legendary strength. Your task is to slay the Hydra, a fearsome creature dwelling in the swamps of Lerna.'
 
